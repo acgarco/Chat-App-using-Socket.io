@@ -40,10 +40,7 @@ Configuration includes  the ALB name, load balancer type, and subnets. However, 
 STEP 4: Node.js and Application Configuration
 In this step, I installed Node.js on the EC2 instances and configure the application using Ansible.
 
+
 The file inventory.ini has the actual public IP addresses and SSH key paths for the EC2 instances.
 Review and customize the install_app.yml Ansible playbook if needed for additional application configuration.
 Run ansible-playbook -i inventory.ini install_app.yml to execute the playbook and install Node.js on the EC2 instances.
-Step 5: Additional Steps and Considerations
-Provide any additional instructions or considerations that are specific to your application and infrastructure setup.
-Include any post-deployment steps or ongoing maintenance instructions if applicable.
-Document any variables or configuration options that need to be adjusted or customized for different environments.
